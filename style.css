@@ -3,12 +3,13 @@ header {
   background-color: rgb(57, 73, 90);
   width: 100%;
   margin-left: -8px;
-  padding: 8px;
-  margin-top: -10px;
+  margin-left: -32px;
+  padding: 20px;
+  margin-top: -8px;
 }
 nav {
   margin-left: auto;
-  margin-top: 20px;
+  margin-right: auto;
 }
 a {
   text-decoration: none;
@@ -16,12 +17,8 @@ a {
   color: white;
   margin-right: 10px;
 }
-h1 {
-  color: white;
-}
-
 body {
-  background-color: lightblue;
+  background-color: burlywood;
 }
 
 img {
@@ -29,32 +26,15 @@ img {
   height: 350px;
   margin-top: 10px;
 }
-
-#full {
-  height: 809px;
-  background-color: blue;
-  width: 50%;
-  margin-left: 25%;
-}
-#info {
-  display: flex;
-  padding: 20px;
-  color: white;
-  text-align: center;
-}
-
-#info p {
-  font-size: 30px;
-}
-#message {
-  width: 60%;
-}
 footer {
-  background-color: lightslategray;
   margin-bottom: auto;
   margin: -10px;
   width: 100%;
+  padding: 9px;
+  text-align: center;
+  background-color: rgb(57, 73, 90);
 }
+/*CSS for Home page*/
 #quote {
   font-family: cursive;
   font-size: 40px;
@@ -62,8 +42,152 @@ footer {
   color: white;
 }
 
-footer {
-  padding: 9px;
+.heading span {
+  font-size: 50px;
+}
+.heading {
+  display: flex;
+}
+.heading img {
+  width: 350px;
+  height: 368px;
+  border-radius: 40px;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.info {
+  margin-top: 60px;
+  margin-bottom: auto;
   text-align: center;
-  background-color: rgb(57, 73, 90);
+}
+.info span {
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 70px;
+}
+
+.info ul {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  list-style-type: square;
+}
+
+/*CSS for Portfolio Page */
+.firstCard {
+  display: inline-block;
+  background-color: antiquewhite;
+  background-color: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.secondCard {
+  display: inline-block;
+  background-color: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.thirdCard {
+  display: inline-block;
+  background-color: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+}
+.firstCard p {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.secondCard p {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.thirdCard p {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.firstCard a {
+  background-color: rgb(66, 58, 227);
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.secondCard a {
+  background-color: rgb(66, 58, 227);
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.thirdCard a {
+  background-color: rgb(66, 58, 227);
+  padding: 4px;
+  border-radius: 3px;
+  margin-left: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blue;
+}
+.allCards {
+  display: flex;
+  margin-left: 80px;
+  margin-right: auto;
+}
+.footer {
+  margin-top: 20px;
+}
+
+/* CSS for about page */
+#firstStory {
+  display: flex;
+}
+#firstStory p {
+  font-size: 30px;
+  margin: auto auto auto auto;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#firstStory img {
+  border-radius: 50%;
+  height: 280px;
+}
+
+#secondStory {
+  display: flex;
+}
+#secondStory p {
+  font-size: 30px;
+  margin: auto auto auto auto;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#secondStory img {
+  border-radius: 50%;
+}
+#thirdStory {
+  display: flex;
+}
+#thirdStory p {
+  font-size: 30px;
+  margin: auto auto auto auto;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#thirdStory img {
+  border-radius: 50%;
+  height: 250px;
 }
