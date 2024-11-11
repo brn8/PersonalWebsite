@@ -1,3 +1,648 @@
+@media screen and (max-width: 1200px) {
+  .info {
+    grid-area: information;
+  }
+  .image {
+    grid-area: image;
+  }
+  .quote {
+    grid-area: quote;
+  }
+  .heading {
+    grid-area: heading;
+  }
+
+  .image img {
+    border-radius: 20%;
+    width: auto;
+  }
+  .image {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .container {
+    display: grid;
+    grid-template-areas:
+      "information information information information image "
+      "quote quote quote quote quote ";
+    grid-gap: 10px;
+    border-color: red;
+    margin-top: 65px;
+    width: auto;
+  }
+
+  .quote {
+    font-family: cursive;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    margin-top: 30px;
+    margin-bottom: auto;
+    text-align: center;
+  }
+  .info span {
+    color: blue;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 4vw;
+  }
+
+  .info ul {
+    font-size: 3vw;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    list-style-type: square;
+  }
+  .firstCard {
+    grid-area: first;
+  }
+  .secondCard {
+    grid-area: second;
+  }
+  .thirdCard {
+    grid-area: third;
+  }
+  .allCards h1 {
+    grid-area: header;
+  }
+
+  .allCards > div {
+    border-color: 2px solid red;
+  }
+  .allCards {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "first second third";
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: 0px;
+  }
+  .firstCard img {
+    width: 25vw;
+  }
+  .secondCard img {
+    width: 25vw;
+  }
+  .thirdCard img {
+    width: 25vw;
+  }
+  .firstCard {
+    background-color: antiquewhite;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 25vw;
+  }
+  .secondCard {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 25vw;
+  }
+  .thirdCard {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 25vw;
+  }
+  .firstCard p {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .firstCard h2 {
+    text-align: center;
+  }
+  .secondCard p {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .secondCard h2 {
+    text-align: center;
+  }
+  .thirdCard p {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .thirdCard h2 {
+    text-align: center;
+  }
+  .firstCard a {
+    background-color: rgb(66, 58, 227);
+    padding: 3px;
+    border-radius: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 3vw;
+  }
+  .secondCard a {
+    background-color: rgb(66, 58, 227);
+    padding: 3px;
+    border-radius: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 3vw;
+  }
+  .thirdCard a {
+    background-color: rgb(66, 58, 227);
+    padding: 4px;
+    border-radius: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 3vw;
+  }
+  .allStories {
+    margin-top: 80px;
+  }
+  img {
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  #firstStory {
+    display: flex;
+  }
+  #firstStory p {
+    font-size: 2.5vw;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #firstStory img {
+    border-radius: 50%;
+    height: 280px;
+  }
+
+  #secondStory {
+    display: flex;
+  }
+  #secondStory p {
+    font-size: 2.5vw;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #secondStory img {
+    border-radius: 50%;
+  }
+  #thirdStory {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  #thirdStory p {
+    font-size: 2.5vw;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #thirdStory img {
+    border-radius: 50%;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .info {
+    grid-area: information;
+  }
+  .image {
+    grid-area: image;
+  }
+  .quote {
+    grid-area: quote;
+  }
+  .heading {
+    grid-area: heading;
+  }
+
+  .image img {
+    border-radius: 20%;
+    width: auto;
+  }
+  .image {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .container {
+    display: grid;
+    grid-template-areas:
+      "information information information information image "
+      "quote quote quote quote quote ";
+    grid-gap: 10px;
+    border-color: red;
+    margin-top: 65px;
+    width: auto;
+  }
+
+  .quote {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    margin-top: 30px;
+    margin-bottom: auto;
+    text-align: center;
+  }
+  .info span {
+    color: blue;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 50px;
+  }
+
+  .info ul {
+    font-size: 35px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    list-style-type: square;
+  }
+  .firstCard {
+    grid-area: first;
+  }
+  .secondCard {
+    grid-area: second;
+  }
+  .thirdCard {
+    grid-area: third;
+  }
+  .allCards h1 {
+    grid-area: header;
+  }
+
+  .allCards > div {
+    border-color: 2px solid red;
+  }
+  .allCards {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "first second third";
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: 60px;
+  }
+  .firstCard img {
+    width: 25vw;
+  }
+  .secondCard img {
+    width: 25vw;
+  }
+  .thirdCard img {
+    width: 25vw;
+  }
+  .firstCard {
+    background-color: antiquewhite;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 25vw;
+  }
+  .secondCard {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 25vw;
+  }
+  .thirdCard {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 25vw;
+  }
+  .firstCard p {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .firstCard h2 {
+    text-align: center;
+  }
+  .secondCard p {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .secondCard h2 {
+    text-align: center;
+  }
+  .thirdCard p {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .thirdCard h2 {
+    text-align: center;
+  }
+  .firstCard a {
+    background-color: rgb(66, 58, 227);
+    padding: 3px;
+    border-radius: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .secondCard a {
+    background-color: rgb(66, 58, 227);
+    padding: 3px;
+    border-radius: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .thirdCard a {
+    background-color: rgb(66, 58, 227);
+    padding: 4px;
+    border-radius: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .allStories {
+    margin-top: 60px;
+  }
+  img {
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  #firstStory {
+    display: flex;
+  }
+  #firstStory p {
+    font-size: 30px;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #firstStory img {
+    border-radius: 50%;
+    height: 280px;
+  }
+
+  #secondStory {
+    display: flex;
+  }
+  #secondStory p {
+    font-size: 30px;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #secondStory img {
+    border-radius: 50%;
+  }
+  #thirdStory {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  #thirdStory p {
+    font-size: 30px;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #thirdStory img {
+    border-radius: 50%;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .info {
+    grid-area: information;
+  }
+  .image {
+    grid-area: image;
+  }
+  .quote {
+    grid-area: quote;
+  }
+  .heading {
+    grid-area: heading;
+  }
+
+  .image img {
+    border-radius: 20%;
+    width: 220px;
+  }
+  .image {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .container {
+    display: grid;
+    grid-template-areas:
+      "information information information information image "
+      "quote quote quote quote quote ";
+    grid-gap: 10px;
+    border-color: red;
+    margin-top: 50px;
+    width: auto;
+  }
+
+  .quote {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    margin-top: 30px;
+    margin-bottom: auto;
+    text-align: center;
+  }
+  .info span {
+    color: blue;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 23px;
+  }
+
+  .info ul {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    list-style-type: square;
+  }
+  .firstCard {
+    grid-area: first;
+  }
+  .secondCard {
+    grid-area: second;
+  }
+  .thirdCard {
+    grid-area: third;
+  }
+  .allCards h1 {
+    grid-area: header;
+  }
+
+  .allCards > div {
+    border-color: 2px solid red;
+  }
+  .allCards {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "first second third";
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: 0px;
+  }
+  .firstCard img {
+    width: 120px;
+  }
+  .secondCard img {
+    width: 120px;
+  }
+  .thirdCard img {
+    width: 120px;
+  }
+  .firstCard {
+    background-color: antiquewhite;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 120px;
+  }
+  .secondCard {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 120px;
+  }
+  .thirdCard {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 120px;
+  }
+  .firstCard p {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .firstCard h2 {
+    text-align: center;
+  }
+  .secondCard p {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .secondCard h2 {
+    text-align: center;
+  }
+  .thirdCard p {
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .thirdCard h2 {
+    text-align: center;
+  }
+  .firstCard a {
+    background-color: rgb(66, 58, 227);
+    padding: 3px;
+    border-radius: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 3vw;
+  }
+  .secondCard a {
+    background-color: rgb(66, 58, 227);
+    padding: 3px;
+    border-radius: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 3vw;
+  }
+  .thirdCard a {
+    background-color: rgb(66, 58, 227);
+    padding: 4px;
+    border-radius: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 3vw;
+  }
+  .allStories {
+    margin-top: 80px;
+  }
+  img {
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  #firstStory {
+    display: flex;
+  }
+  #firstStory p {
+    font-size: 15px;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #firstStory img {
+    border-radius: 50%;
+    height: 280px;
+  }
+
+  #secondStory {
+    display: flex;
+  }
+  #secondStory p {
+    font-size: 15px;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #secondStory img {
+    border-radius: 50%;
+  }
+  #thirdStory {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  #thirdStory p {
+    font-size: 15px;
+    margin: auto auto auto auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #thirdStory img {
+    border-radius: 50%;
+    height: 250px;
+  }
+}
 header {
   position: fixed;
   top: 0;
@@ -22,166 +667,9 @@ a {
 body {
   background-color: burlywood;
 }
-
 /*CSS for Home page*/
-.info {
-  grid-area: information;
-}
-.image {
-  grid-area: image;
-}
-.quote {
-  grid-area: quote;
-}
-.heading {
-  grid-area: heading;
-}
-
-.image img {
-  border-radius: 30%;
-}
-.image {
-  margin-top: 10px;
-}
-.container {
-  display: grid;
-  grid-template-areas:
-    "information information information information image "
-    "quote quote quote quote quote ";
-  grid-gap: 10px;
-  border-color: red;
-  margin-top: 90px;
-}
-
-.quote {
-  font-family: cursive;
-  font-size: 40px;
-  text-align: center;
-  color: white;
-}
-
-.heading span {
-  font-size: 50px;
-}
-
-.heading img {
-  width: 350px;
-  height: 368px;
-  border-radius: 40px;
-  margin-top: 80px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.info {
-  margin-top: 30px;
-  margin-bottom: auto;
-  text-align: center;
-}
-.info span {
-  color: blue;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 70px;
-}
-
-.info ul {
-  font-size: 30px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  list-style-type: square;
-}
 
 /*CSS for Portfolio Page */
-.firstCard {
-  grid-area: first;
-}
-.secondCard {
-  grid-area: second;
-}
-.thirdCard {
-  grid-area: third;
-}
-.allCards h1 {
-  grid-area: header;
-}
-.allCards {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "first second third";
-  padding: 10px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-right: auto;
-  margin-left: 10px;
-}
-.allCards > div {
-  border-color: 2px solid red;
-}
-.firstCard {
-  background-color: antiquewhite;
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  margin-right: 10px;
-}
-.secondCard {
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  margin-right: 10px;
-}
-.thirdCard {
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  margin-right: 10px;
-}
-.firstCard p {
-  font-size: 15px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-.firstCard h2 {
-  text-align: center;
-}
-.secondCard p {
-  font-size: 15px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-.secondCard h2 {
-  text-align: center;
-}
-.thirdCard p {
-  font-size: 15px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-.thirdCard h2 {
-  text-align: center;
-}
-.firstCard a {
-  background-color: rgb(66, 58, 227);
-  padding: 3px;
-  border-radius: 3px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-.secondCard a {
-  background-color: rgb(66, 58, 227);
-  padding: 3px;
-  border-radius: 3px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-.thirdCard a {
-  background-color: rgb(66, 58, 227);
-  padding: 4px;
-  border-radius: 3px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
 
 h1 {
   font-size: 45px;
@@ -201,54 +689,6 @@ h1 {
 }
 
 /* CSS for about page */
-.allStories {
-  margin-top: 60px;
-}
-img {
-  width: 300px;
-  height: 350px;
-  margin-top: 10px;
-}
-#firstStory {
-  display: flex;
-}
-#firstStory p {
-  font-size: 30px;
-  margin: auto auto auto auto;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-#firstStory img {
-  border-radius: 50%;
-  height: 280px;
-}
-
-#secondStory {
-  display: flex;
-}
-#secondStory p {
-  font-size: 30px;
-  margin: auto auto auto auto;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-#secondStory img {
-  border-radius: 50%;
-}
-#thirdStory {
-  display: flex;
-  margin-bottom: 40px;
-}
-#thirdStory p {
-  font-size: 30px;
-  margin: auto auto auto auto;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-#thirdStory img {
-  border-radius: 50%;
-  height: 250px;
-}
 
 /* CSS for contact page */
 #form {
