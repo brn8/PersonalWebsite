@@ -1,85 +1,56 @@
-@media screen and (min-width: 10px) {
-  header {
-    display: flex;
-    background-color: rgb(57, 73, 90);
-    width: 100%;
-    margin-left: -8px;
-    margin-left: -32px;
-    padding: 20px;
-    margin-top: -8px;
-  }
-  nav {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  a {
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
-    margin-right: 10px;
-  }
+header {
+  display: flex;
+  background-color: rgb(57, 73, 90);
+  width: 100%;
+  margin-left: -8px;
+  margin-left: -32px;
+  padding: 20px;
+  margin-top: -8px;
 }
-@media screen and (min-width: 1280px) {
-  header {
-    display: flex;
-    background-color: rgb(57, 73, 90);
-    width: 100%;
-    margin-left: -8px;
-    margin-left: -32px;
-    padding: 20px;
-    margin-top: -8px;
-  }
-  nav {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  a {
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
-    margin-right: 10px;
-  }
+nav {
+  margin-left: auto;
+  margin-right: auto;
 }
-@media screen and (min-width: 1281px) {
-  header {
-    display: flex;
-    background-color: rgb(57, 73, 90) s;
-    width: 100%;
-    margin-left: -8px;
-    margin-left: -32px;
-    padding: 20px;
-    margin-top: -8px;
-  }
-  nav {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  a {
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
-    margin-right: 10px;
-  }
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  margin-right: 10px;
 }
 body {
   background-color: burlywood;
 }
 
-img {
-  width: 300px;
-  height: 350px;
+/*CSS for Home page*/
+.info {
+  grid-area: information;
+}
+.image {
+  grid-area: image;
+}
+.quote {
+  grid-area: quote;
+}
+.heading {
+  grid-area: heading;
+}
+
+.image img {
+  border-radius: 30%;
+}
+.image {
   margin-top: 10px;
 }
-footer {
-  margin-bottom: auto;
-  margin: -10px;
-  width: 100%;
-  padding: 9px;
-  text-align: center;
-  background-color: rgb(57, 73, 90);
+.container {
+  display: grid;
+  grid-template-areas:
+    "information information information information image "
+    "quote quote quote quote quote ";
+  grid-gap: 10px;
+  border-color: red;
 }
-/*CSS for Home page*/
-#quote {
+
+.quote {
   font-family: cursive;
   font-size: 40px;
   text-align: center;
@@ -89,9 +60,7 @@ footer {
 .heading span {
   font-size: 50px;
 }
-.heading {
-  display: flex;
-}
+
 .heading img {
   width: 350px;
   height: 368px;
@@ -100,8 +69,9 @@ footer {
   margin-left: 20px;
   margin-right: 20px;
 }
+
 .info {
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: auto;
   text-align: center;
 }
@@ -120,64 +90,92 @@ footer {
 
 /*CSS for Portfolio Page */
 .firstCard {
-  display: inline-block;
+  grid-area: first;
+}
+.secondCard {
+  grid-area: second;
+}
+.thirdCard {
+  grid-area: third;
+}
+.allCards h1 {
+  grid-area: header;
+}
+.allCards {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "first second third";
+  padding: 11px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.allCards > div {
+  border-color: 2px solid red;
+}
+.firstCard {
   background-color: antiquewhite;
   background-color: white;
   padding: 30px;
-  width: 300px;
   border-radius: 10px;
   margin-right: 10px;
 }
 .secondCard {
-  display: inline-block;
   background-color: white;
   padding: 30px;
-  width: 300px;
   border-radius: 10px;
   margin-right: 10px;
 }
 .thirdCard {
-  display: inline-block;
   background-color: white;
   padding: 30px;
-  width: 300px;
   border-radius: 10px;
 }
 .firstCard p {
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.firstCard h2 {
+  text-align: center;
 }
 .secondCard p {
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.secondCard h2 {
+  text-align: center;
 }
 .thirdCard p {
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.thirdCard h2 {
+  text-align: center;
 }
 .firstCard a {
   background-color: rgb(66, 58, 227);
   padding: 3px;
   border-radius: 3px;
-  margin-left: 70px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 .secondCard a {
   background-color: rgb(66, 58, 227);
   padding: 3px;
   border-radius: 3px;
-  margin-left: 70px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .thirdCard a {
   background-color: rgb(66, 58, 227);
   padding: 4px;
   border-radius: 3px;
-  margin-left: 70px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -186,16 +184,24 @@ h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: blue;
 }
-.allCards {
-  display: flex;
-  margin-left: 80px;
-  margin-right: auto;
-}
+
 .footer {
-  margin-top: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 3px;
+  background-color: rgb(57, 73, 90);
+  color: white;
+  text-align: center;
 }
 
 /* CSS for about page */
+img {
+  width: 300px;
+  height: 350px;
+  margin-top: 10px;
+}
 #firstStory {
   display: flex;
 }
@@ -224,6 +230,7 @@ h1 {
 }
 #thirdStory {
   display: flex;
+  margin-bottom: 40px;
 }
 #thirdStory p {
   font-size: 30px;
